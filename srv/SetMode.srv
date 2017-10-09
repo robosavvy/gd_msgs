@@ -1,0 +1,19 @@
+#
+# Sets the mode of operation of the platform:
+#  - Park: Wheels are floating. Used to manually move the platform around.
+#  - Tractor: Platform responds directly to linear and angular velocity commands. Does not balance on two wheels! 
+#  Can be used as differential mobile platform.
+#  - Balance: Platform self-balancing mode. 
+#  - DTZ: decelerate to zero, regardless if it was previously balancing or in tractor mode
+#
+
+# Mode request constants
+int32 PARK = 1
+int32 TRACTOR = 2
+int32 BALANCE = 3
+int32 DTZ = 4
+
+# Mode request field
+int32 mode
+---
+bool success

@@ -1,0 +1,14 @@
+#
+# Sets the input source for commanding the platform.
+#  - PC: Command through the PC communication procotol, with override command from the RC
+#  - RC: Input source from the RC transmitter
+#  - MIX: mix of the two input sources - yet undefined
+
+# Input source constants
+int32 PC = 0
+int32 RC = 1
+int32 MIX = 2
+
+# Input request field
+int32 input
+---
