@@ -6,7 +6,7 @@
 
   <maintainer email="info@robosavvy.com">RoboSavvy</maintainer>
 
-  <license>GPLv3</license>
+  <license>Creative Commons Attribution 3.0</license>
 
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>message_generation</build_depend>
